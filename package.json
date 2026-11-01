@@ -1,0 +1,14 @@
+{
+  "name": "invoice-manager",
+  "private": true,
+  "scripts": {
+    "setup": "npm install --prefix server && npm install --prefix client",
+    "dev:server": "npm run dev --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "build": "npm run build --prefix client",
+    "start": "npm start --prefix server",
+    "test": "npm test --prefix server",
+    "test:api": "npm run test:api --prefix server",
+    "import:sample": "npm run import:sample --prefix server --"
+  }
+}
